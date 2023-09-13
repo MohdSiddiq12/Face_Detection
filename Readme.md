@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,7 +15,7 @@
       font-size: 20px;
     }
   </style>
-</head>
+</head>-->
 
 <body>
   <h1>Face Detection using OpenCV</h1>
@@ -54,7 +54,7 @@
     </li>
     <li><h3>Process Detected Faces as Needed.</h3></li>
     <li><h3>Display Video Frames:</h3>
-      <pre><code>cv2.imshow('Face Detection', img)
+      <pre><code>cv2.imshow('Face Detection', video)
 cv2.waitKey(0)
 cv2.destroyAllWindows()</code></pre>
     </li>
