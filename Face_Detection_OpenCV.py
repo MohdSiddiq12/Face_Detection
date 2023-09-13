@@ -1,13 +1,14 @@
+#importing opencv
 import cv2
 
 # Create a CascadeClassifier object and load the face detection model
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Open the default camera (camera index 0)
-video_cap = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(0)
 
 while True:
-    ret, video_data = video_cap.read()
+    ret, video_data = video_capture.read()
 
     # Convert the frame to grayscale for face detection
     col = cv2.cvtColor(video_data, cv2.COLOR_BGR2GRAY)
