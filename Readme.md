@@ -1,3 +1,4 @@
+🛠️ Description
 Face Detection using OpenCV
 
 This project implements face detection with OpenCV. It includes installation instructions, required imports, and version details.
