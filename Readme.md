@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -15,7 +15,7 @@
       font-size: 20px;
     }
   </style>
-</head>
+</head> -->
 
 <body>
   <h1>Face Detection using OpenCV</h1>
