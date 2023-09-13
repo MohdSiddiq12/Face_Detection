@@ -68,7 +68,7 @@ cv2.destroyAllWindows()</code></pre>
   </ul>
 
   <h2>🤖 Author</h2>
-  <p>[Darpan Balar]</p>
+  <p>Mohammed Siddiq</p>
 </body>
 
 </html>
